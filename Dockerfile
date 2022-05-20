@@ -1,4 +1,4 @@
-FROM ibmcom/ace-server:11.0.0.11-r1-20210107-040257@sha256:db5af56dd77ffd9e31d67fda989808ed6239f2a3a0d605d872e53a3371444268
+FROM cp.icr.io/cp/appc/ace-server-prod@sha256:9ed5edfd8e6d0a9259e5387332b96685ae353bc2f50f13a37787846d5ef7913a
 USER root
 COPY bars_test /home/aceuser/bars
 RUN  chmod -R ugo+rwx /home/aceuser
